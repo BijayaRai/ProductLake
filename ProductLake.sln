@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductLake", "ProductLake\ProductLake.csproj", "{F9A2DA1E-5E0D-4AF2-89B8-D202116B1B17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductLakeTest.L0", "ProductLake.L0\ProductLakeTest.L0.csproj", "{4363345F-0A00-4593-986D-940CAA98B984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductLakeTest.L0", "ProductLake.L0\ProductLakeTest.L0.csproj", "{4363345F-0A00-4593-986D-940CAA98B984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductLake.Test.Intergation", "ProductLake.Test.Intergation\ProductLake.Test.Intergation.csproj", "{914B3592-2961-44A6-AEB6-AD7FC70D6706}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4363345F-0A00-4593-986D-940CAA98B984}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4363345F-0A00-4593-986D-940CAA98B984}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4363345F-0A00-4593-986D-940CAA98B984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914B3592-2961-44A6-AEB6-AD7FC70D6706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914B3592-2961-44A6-AEB6-AD7FC70D6706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914B3592-2961-44A6-AEB6-AD7FC70D6706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914B3592-2961-44A6-AEB6-AD7FC70D6706}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

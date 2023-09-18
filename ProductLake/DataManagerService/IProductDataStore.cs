@@ -11,11 +11,12 @@ namespace ProductLake.DataManagerService
 
     public class InMemoryProductDataStore : IProductDataStore
     {
-        private readonly List<Product> products = new List<Product>()
+        private readonly IEnumerable<Product> products = new List<Product>()
             {
                 new Product("Phone"),
                 new Product("Laptop"),
             };
+
         public IEnumerable<Product> RetrieveProductList() => this.products;
 
         public IEnumerable<Product> RetrieveFilteredProductList(string colour)
